@@ -1,0 +1,256 @@
+.fav-border img{
+  border-radius: 10px;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  height: 572px;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+section.about-area {
+  height: 500px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+h1 {
+  padding-top: 84px;
+}
+h1 span {
+  color: orange;
+}
+.manu-bar h2 {
+  color: orangered;
+  font-size: 35px;
+  padding-left: 99px;
+  font-weight: 400;
+}
+.manu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  width: 76px;
+  font-size: 22px;
+  text-align: center;
+  margin-top: -34px;
+  margin-left: 39px;
+  margin-right: 100px;
+}
+
+li a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #080503;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+li a:hover {
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  border-radius: 10px;
+}
+.half-width img {
+  width: 100%;
+}
+.anchor-button {
+  text-decoration: none;
+  position: static;
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  padding: 10px 40px;
+  height: 23px;
+  left: 43px;
+  top: 22.5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+  border-radius: 100px;
+  color: white;
+}
+p {
+  color: dimgray;
+}
+h2 {
+  font-size: 40px;
+}
+.slider-area p {
+  padding-bottom: 60px;
+}
+.slider-area h1 {
+  color: #575757;
+  font-size: 40px;
+}
+#slide-image img {
+  width: 500px;
+  height: 500px;
+}
+.about-area {
+  background-image: url("images/shapes/7.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.about-area h2 {
+  color: #575757;
+  padding-top: 69px;
+}
+.about-area p {
+  padding-bottom: 100px;
+}
+.about-area img {
+  background-repeat: no-repeat;
+  width: 444px;
+  height: 550px;
+  padding-left: 50px;
+}
+.recipie-area h2 {
+  color: #575757;
+  text-align: center;
+}
+.recipie-area p {
+  text-align: center;
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+.recipie-area h3 {
+  color: orange;
+}
+
+.recipie-area div {
+  box-shadow: 5px 7px 40px gray;
+  height: 72%;
+}
+.recipies-form {
+  width: 20%;
+  float: left;
+  margin-left: 7%;
+  padding: 15px;
+}
+#recipies {
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+#recipies img {
+  width: 100%;
+}
+#recipies h3 {
+  color: black;
+  font-weight: 700;
+}
+#recipies p {
+  text-align: left;
+}
+section.social-platform {
+  height: 195px;
+  width: 82%;
+  margin-left: 88px;
+}
+#social-area {
+  margin-top: 90px;
+  box-shadow: 5px 7px 40px gray;
+  border-radius: 36px;
+}
+.social-from {
+  float: left;
+  width: 223px;
+  height: 300px;
+  padding-left: 127px;
+}
+.social-platform::after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+footer {
+  margin-top: 90px;
+  height: 450px;
+  background-color: black;
+}
+footer h1 {
+  color: #575757;
+  text-align: center;
+  padding-top: 25px;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+.center {
+  position: relative;
+  text-align: center;
+  padding: 0px 50px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid rgb(231, 144, 30);
+  padding: 10px;
+  color: whitesmoke;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  padding-left: 10px;
+  font-family: "Sansita Swashed", cursive;
+}
+.center .inputbox {
+  position: relative;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.center .inputbox input {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid whitesmoke;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.center .inputbox:last-child {
+  margin-bottom: 0;
+}
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+.center .inputbox [type="button"] {
+  width: 50%;
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  color: #fff;
+  border: #fff;
+}
